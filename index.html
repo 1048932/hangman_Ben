@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hangman</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="man">
+            <section class="block"></section>
+            <main>
+                <article class="block"></article>
+                <aside>
+                    <div id="r">|</div>
+                    <header>O</header>
+                    <div id="bod">
+                        <label id="lArm">/</label>
+                        <label id="b">|</label>
+                        <label id="rArm">\</label>
+                    </div>
+                    <br>
+                    <footer>
+                        <label id="lLeg">/</label>
+                        <label id="rLeg">\</label>
+                    </footer>
+                </aside>
+            </main>
+        </div>
+        <div id="stats">
+            <label id="v"></label>
+            <br><br><br>
+            <button id="reset"> Reset Game</button>
+            <br><br><br><br>
+
+            <label>Letter:</label>
+            <br>
+            <input type="text" minlength="1" maxlength="1" value="T">
+            <br><br>
+            <button id="submit">Submit Letter</button>
+
+            <p>Failed:<br> <span> </span></p>
+        </div>
+        <br><br>
+
+        <div id="spaces">
+        </div>
+
+
+    </body>
+
+    <script src="hangman.js"></script>
+</html>

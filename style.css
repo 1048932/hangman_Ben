@@ -1,0 +1,116 @@
+
+* {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    padding: 100px;
+    padding-top: 40px;
+}
+
+input {
+    height: 40px;
+    width: 40px;
+    color: black;
+    font-size: 40px;
+}
+
+button {
+    background-color: #ff9900;
+    padding: 5px;
+}
+
+p, span {
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+}
+
+.block {
+    background-color: white;
+}
+
+article {
+    height: 400px;
+    width: 15px;
+}
+
+#r {
+    font-size: 75px;
+}
+
+header {
+    visibility: hidden;
+    display: inline;
+    text-align: center;
+    font-size: 100px;
+}
+
+#bod label {
+    visibility: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 75px;
+}
+
+footer label{
+    visibility: hidden;
+    font-size: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+aside {
+    text-align: center;
+    padding-left: 100px;
+}
+
+#man {
+    display: inline-block;
+    width: 45%;
+}
+
+
+.letter {
+    display: inline-block;
+    width: 100px;
+    height: 175px;
+    text-align: center;
+
+}
+.letter label {
+    font-size: 100px;
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+#spaces {
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+#stats {
+    display: inline-block;
+    width: 30%;
+}
+
+#reset {
+    height: 50px;
+    width: 125px;
+}
+
+#v {
+    font-size: 20px;
+}
